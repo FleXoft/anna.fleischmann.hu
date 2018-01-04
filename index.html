@@ -64,13 +64,13 @@
   
   <SCRIPT language="Javascript1.2">
     // main()
-	today = new Date();
-    diff = new Date();
+	  today = new Date();
+    diff  = new Date();
 	var one_day = 1000*60*60*24;
 	
-    diff.setTime(new Date(today.getFullYear(), today.getMonth(), today.getDate()) - new Date(2001, 11 - 1, 05));
+    diff.setTime(new Date(today.getFullYear(), today.getMonth(), today.getDate()) - new Date( 2001, 11 - 1, 05 ));
 	
-    document.write("_________________________________________<br>/ <b>Anna</b> ma " + (diff.getFullYear() - 1970) + " éves")
+    document.write("_________________________________________<br>/ <b>Anna</b> ma " + ( diff.getFullYear() - 1970 ) + " éves")
     if (diff.getMonth() != 0) 
       { 
         document.write(", " + diff.getMonth() + " hónapos");
